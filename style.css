@@ -34,6 +34,7 @@ header{
     align-items: center;
     background: transparent;
     transition: all 0.5 ease;
+    padding: 30px 5%;
 }
 .logo img{
     width:100%;
@@ -41,14 +42,14 @@ header{
 }
 .nav-bar{
     display: flex;
+    
 }
 .nav-bar a{
-    padding: 10px 25px;
+    padding: 30px 25px;
     font-size: var(--p-font);
     font-weight: 400;
     color: var(--other-color);
     transition: all .4s ease;
-    position: relative;
 }
 .nav-bar a:hover{
     color:var(--text-color);
@@ -65,4 +66,20 @@ header{
     font-weight: 500;
     margin-left:20px;
     transition: all .4s ease;
+}
+.header-btn1{
+    color:var(--other-color);
+    font-weight: 500;
+    font-size: 18px;
+}
+.header-btn2:hover{
+    transform: translateY(7px);
+}
+#menu-icon{
+    color:var(--text-color);
+    font-size: 36rem;
+    margin-left: 5px;
+    z-index: 1001;
+    cursor: pointer;
+    display:none;
 }
